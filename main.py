@@ -30,7 +30,7 @@ if os.path.isfile('file.txt'):
     print(f'file read : {file_read.read()}')
     print()
 
-text = input('Input text to file : ')
+text = 'Input text to file : '
 print()
 
 with open('file.txt', 'wt') as file:
